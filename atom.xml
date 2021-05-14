@@ -6,7 +6,7 @@
   <link href="https://zsc280.github.io/atom.xml" rel="self"/>
   
   <link href="https://zsc280.github.io/"/>
-  <updated>2021-05-14T13:00:44.333Z</updated>
+  <updated>2021-05-06T14:09:50.827Z</updated>
   <id>https://zsc280.github.io/</id>
   
   <author>
@@ -15,28 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>一、菱形</title>
-    <link href="https://zsc280.github.io/2021/05/14/newpapername/"/>
-    <id>https://zsc280.github.io/2021/05/14/newpapername/</id>
-    <published>2021-05-14T12:53:32.000Z</published>
-    <updated>2021-05-14T13:00:44.333Z</updated>
-    
-    <content type="html"><![CDATA[<p>package test;</p><p>import java.util.Scanner;</p><p>public class First {<br>    public static void main(String args[]) {<br>        Scanner input=new Scanner(System.in);<br>        int n=input.nextInt();<br>        int c=n/2;<br>        for(int i=0;i&lt;n;i++){<br>            for(int j=0;j&lt;n;j++){<br>                if (Math.abs(i-c)+Math.abs(j-c)&lt;=c)<br>                    System.out.print(“*”);<br>                else<br>                    System.out.print(“ “);<br>            }<br>            System.out.println();<br>        }<br>    }<br>}</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;package test;&lt;/p&gt;
-&lt;p&gt;import java.util.Scanner;&lt;/p&gt;
-&lt;p&gt;public class First {&lt;br&gt;    public static void main(String args[]) {&lt;br&gt;        Sca</summary>
-      
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>第二篇</title>
